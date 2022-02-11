@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Windows/Desktop/imagecompression/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/myapp.dir/includes_CXX.rsp -g -o CMakeFiles\\myapp.dir\\src\\main.cpp.obj -c C:\\Users\\Windows\\Desktop\\imagecompression\\build\\src\\main.cpp",
+  "file": "C:/Users/Windows/Desktop/imagecompression/build/src/main.cpp"
+}
+]
