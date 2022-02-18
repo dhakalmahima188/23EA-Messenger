@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(ImageCompression)
 find_package(SFML COMPONENTS window graphics network audio REQUIRED)
-add_executable(myapp src/bin.cpp)
+add_executable(myapp src/main.cpp)
 target_link_libraries(myapp sfml-graphics)

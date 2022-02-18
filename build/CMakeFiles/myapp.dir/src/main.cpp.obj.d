@@ -255,4 +255,5 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\shared_mutex \
  C:\Users\Windows\Desktop\imagecompression\build\src\compress.cpp \
- C:\Users\Windows\Desktop\imagecompression\build\src\hex.cpp
+ C:\Users\Windows\Desktop\imagecompression\build\src\hex.cpp \
+ C:\Users\Windows\Desktop\imagecompression\build\src\bin.cpp

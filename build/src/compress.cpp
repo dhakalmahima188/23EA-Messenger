@@ -4,6 +4,7 @@
 #include <cstring>
 #include <string>
 #include "hex.cpp"
+#include "bin.cpp"
 using namespace std;
 
 // This constant can be avoided by explicitly
@@ -253,7 +254,7 @@ class huffmanTable
     huffmanTableNode *huffTable;
     int size;
     int i=0;
-	string rawstring="",temp="";
+	string rawstring="",hexstring="";
     huffmanTable(int size)
     {
         this->size = size;
@@ -300,9 +301,9 @@ class huffmanTable
     }
 	void generateHuffmanCode(string ans){
         for(int i=0;i<ans.length();i++){
-            temp+= Search(ans[i]);
+            rawstring+= Search(ans[i]);
         }
-		rawstring=convertBinToHex(temp);
+		hexstring=convertBinToHex(rawstring);
         
     }
 	
@@ -317,7 +318,7 @@ fstream& operator<<(fstream& out, huffmanTable& hT){
 	{
 		out<<hT.huffTable[i].data<<" "<<hT.huffTable[i].code<<endl;
 	}
-	out<<hT.rawstring<<endl;
+	out<<hT.hexstring<<endl;
 	return out;
 }
 //read huffman table from file
@@ -409,7 +410,8 @@ void decompress(){
 		receiverFile>>h;
 		//h.PrintHuffmanCode(h.rawstring);
 		h.printHuffmanTable();
-		cout<<h.rawstring<<endl;
+		cout<<HexToBin(h.rawstring)<<endl;
+		
 	}
 	receiverFile.close();
 }

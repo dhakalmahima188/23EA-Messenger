@@ -76,15 +76,3 @@ string HexToBin(string hexdec)
     return temp;
 }
  
-// driver code
-int main()
-{
- 
-    // Get the Hexadecimal number
-    char hexdec[100] = "1AC5";
- cout << "\nhex  value is : "<<hexdec << endl;
-    // Convert HexaDecimal to Binary
-    cout << "\nEquivalent Binary value is : "<<HexToBin(hexdec);
- 
-    return 0;
-}

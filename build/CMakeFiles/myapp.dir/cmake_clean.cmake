@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/myapp.dir/src/bin.cpp.obj"
-  "CMakeFiles/myapp.dir/src/bin.cpp.obj.d"
+  "CMakeFiles/myapp.dir/src/main.cpp.obj"
+  "CMakeFiles/myapp.dir/src/main.cpp.obj.d"
   "libmyapp.dll.a"
   "myapp.exe"
   "myapp.exe.manifest"
