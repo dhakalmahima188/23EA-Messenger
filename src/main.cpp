@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include "compress.cpp"
+#include "decompress.cpp"
 using namespace std;
 
 int main(){
@@ -11,9 +12,6 @@ int main(){
         case 'c':
             compress();
             cout<<endl;
-            cout<<endl;
-            decompress();
-           
             break;
         case 'd':
             decompress();

@@ -1,10 +1,11 @@
+#pragma once
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
 #include <cstring>
 #include <string>
-#include "hex.cpp"
-#include "bin.cpp"
+#include "convert_to_hex.cpp"
+#include "convert_to_binary.cpp"
 using namespace std;
 
 // This constant can be avoided by explicitly
@@ -247,6 +248,7 @@ typedef struct huffmanTableNode
         char data;
         string code;
     }huffmanTableNode ;
+
 //create huffman table
 class huffmanTable
 {
@@ -304,6 +306,7 @@ class huffmanTable
             rawstring+= Search(ans[i]);
         }
 		hexstring=convertBinToHex(rawstring);
+
         
     }
 	
@@ -318,7 +321,7 @@ fstream& operator<<(fstream& out, huffmanTable& hT){
 	{
 		out<<hT.huffTable[i].data<<" "<<hT.huffTable[i].code<<endl;
 	}
-	out<<hT.hexstring<<endl;
+	out<<hT.rawstring<<endl;
 	return out;
 }
 //read huffman table from file
@@ -329,11 +332,9 @@ fstream& operator>>(fstream& in, huffmanTable& hT){
 	{
 		in>>hT.huffTable[i].data>>hT.huffTable[i].code;
 	}
-	
 	in>>hT.rawstring;
 	return in;
 }
-
 
 // The main function that builds a
 // Huffman Tree and print codes by traversing
@@ -351,7 +352,7 @@ void HuffmanCodes(char data[], int freq[], int size, string realData)
     hTable.createHuffmanTable(root, "");
 	hTable.generateHuffmanCode(realData);
 	fstream senderFile;
-    senderFile.open("./data/decompressThis/compressed.bin", ios::app);
+    senderFile.open("../data/decompressThis/compressed.bin", ios::app);
 	senderFile<<hTable;
     senderFile.close();
 		
@@ -401,18 +402,5 @@ void compress()
     }
 	HuffmanCodes(uniqueArr, freq, j, ans);
 }
-void decompress(){
-	fstream receiverFile;
-	receiverFile.open("./data/decompressThis/compressed.bin", ios::in);
-	
-	while(!receiverFile.eof()){
-		huffmanTable h;
-		receiverFile>>h;
-		//h.PrintHuffmanCode(h.rawstring);
-		h.printHuffmanTable();
-		cout<<HexToBin(h.rawstring)<<endl;
-		
-	}
-	receiverFile.close();
-}
+
 

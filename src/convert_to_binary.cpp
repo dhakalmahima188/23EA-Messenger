@@ -1,6 +1,5 @@
-
 // Hexadecimal number to Binary
- 
+#pragma once
 #include <bits/stdc++.h>
 using namespace std;
  

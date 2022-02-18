@@ -70,18 +70,18 @@ include CMakeFiles/myapp.dir/flags.make
 
 CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/flags.make
 CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/includes_CXX.rsp
-CMakeFiles/myapp.dir/src/main.cpp.obj: src/main.cpp
+CMakeFiles/myapp.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Windows\Desktop\imagecompression\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myapp.dir/src/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myapp.dir/src/main.cpp.obj -MF CMakeFiles\myapp.dir\src\main.cpp.obj.d -o CMakeFiles\myapp.dir\src\main.cpp.obj -c C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myapp.dir/src/main.cpp.obj -MF CMakeFiles\myapp.dir\src\main.cpp.obj.d -o CMakeFiles\myapp.dir\src\main.cpp.obj -c C:\Users\Windows\Desktop\imagecompression\src\main.cpp
 
 CMakeFiles/myapp.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myapp.dir/src/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp > CMakeFiles\myapp.dir\src\main.cpp.i
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Windows\Desktop\imagecompression\src\main.cpp > CMakeFiles\myapp.dir\src\main.cpp.i
 
 CMakeFiles/myapp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myapp.dir/src/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp -o CMakeFiles\myapp.dir\src\main.cpp.s
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Windows\Desktop\imagecompression\src\main.cpp -o CMakeFiles\myapp.dir\src\main.cpp.s
 
 # Object files for target myapp
 myapp_OBJECTS = \
