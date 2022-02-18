@@ -128,29 +128,29 @@ myapp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/build
 .PHONY : myapp/fast
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/bin.obj: src/bin.cpp.obj
+.PHONY : src/bin.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/bin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/bin.cpp.obj
+.PHONY : src/bin.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/bin.i: src/bin.cpp.i
+.PHONY : src/bin.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/bin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/bin.cpp.i
+.PHONY : src/bin.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/bin.s: src/bin.cpp.s
+.PHONY : src/bin.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/bin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\myapp.dir\build.make CMakeFiles/myapp.dir/src/bin.cpp.s
+.PHONY : src/bin.cpp.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... myapp
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/bin.obj
+	@echo ... src/bin.i
+	@echo ... src/bin.s
 .PHONY : help
 
 

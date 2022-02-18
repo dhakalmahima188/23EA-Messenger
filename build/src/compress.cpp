@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <string>
+#include "hex.cpp"
 using namespace std;
 
 // This constant can be avoided by explicitly
@@ -252,7 +253,7 @@ class huffmanTable
     huffmanTableNode *huffTable;
     int size;
     int i=0;
-	//string rawstring="";
+	string rawstring="",temp="";
     huffmanTable(int size)
     {
         this->size = size;
@@ -294,29 +295,29 @@ class huffmanTable
 	}
 
 
-    //void PrintHuffmanCode(string ans){
-    //    cout<<rawstring<<endl;
-    //}
-	/*void generateHuffmanCode(string ans){
+    void PrintHuffmanCode(string ans){
+        cout<<rawstring<<endl;
+    }
+	void generateHuffmanCode(string ans){
         for(int i=0;i<ans.length();i++){
-            rawstring+= Search(ans[i]);
-			
-
+            temp+= Search(ans[i]);
         }
+		rawstring=convertBinToHex(temp);
         
     }
-	*/
+	
 	friend fstream& operator>>(fstream& in, huffmanTable& hT);
 	friend fstream& operator<<(fstream& out, huffmanTable& hT);
 
 };
 //write huffman table to file
 fstream& operator<<(fstream& out, huffmanTable& hT){
-	out<<hT.size;
+	out<<hT.size<<endl;
 	for (int i = 0; i < hT.size; i++)
 	{
-		out <<hT.huffTable[i].data<<hT.huffTable[i].code;
+		out<<hT.huffTable[i].data<<" "<<hT.huffTable[i].code<<endl;
 	}
+	out<<hT.rawstring<<endl;
 	return out;
 }
 //read huffman table from file
@@ -325,8 +326,10 @@ fstream& operator>>(fstream& in, huffmanTable& hT){
 	hT.huffTable = new huffmanTableNode[hT.size];
 	for (int i = 0; i < hT.size; i++)
 	{
-		in >> hT.huffTable[i].data >>hT.huffTable[i].code;
+		in>>hT.huffTable[i].data>>hT.huffTable[i].code;
 	}
+	
+	in>>hT.rawstring;
 	return in;
 }
 
@@ -345,7 +348,7 @@ void HuffmanCodes(char data[], int freq[], int size, string realData)
 	// the Huffman tree built above
 	huffmanTable hTable(size) ;
     hTable.createHuffmanTable(root, "");
-	//hTable.generateHuffmanCode(realData);
+	hTable.generateHuffmanCode(realData);
 	fstream senderFile;
     senderFile.open("./data/decompressThis/compressed.bin", ios::app);
 	senderFile<<hTable;
@@ -406,6 +409,7 @@ void decompress(){
 		receiverFile>>h;
 		//h.PrintHuffmanCode(h.rawstring);
 		h.printHuffmanTable();
+		cout<<h.rawstring<<endl;
 	}
 	receiverFile.close();
 }

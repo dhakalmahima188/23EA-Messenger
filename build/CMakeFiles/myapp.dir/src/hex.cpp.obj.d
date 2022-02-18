@@ -1,5 +1,5 @@
-CMakeFiles/myapp.dir/src/main.cpp.obj: \
- C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp \
+CMakeFiles/myapp.dir/src/hex.cpp.obj: \
+ C:\Users\Windows\Desktop\imagecompression\build\src\hex.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\stdc++.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cassert \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
@@ -253,6 +253,4 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\shared_mutex \
- C:\Users\Windows\Desktop\imagecompression\build\src\compress.cpp \
- C:\Users\Windows\Desktop\imagecompression\build\src\hex.cpp
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\shared_mutex

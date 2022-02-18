@@ -68,29 +68,29 @@ include CMakeFiles/myapp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/myapp.dir/flags.make
 
-CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/flags.make
-CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/includes_CXX.rsp
-CMakeFiles/myapp.dir/src/main.cpp.obj: src/main.cpp
-CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Windows\Desktop\imagecompression\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myapp.dir/src/main.cpp.obj"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myapp.dir/src/main.cpp.obj -MF CMakeFiles\myapp.dir\src\main.cpp.obj.d -o CMakeFiles\myapp.dir\src\main.cpp.obj -c C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp
+CMakeFiles/myapp.dir/src/bin.cpp.obj: CMakeFiles/myapp.dir/flags.make
+CMakeFiles/myapp.dir/src/bin.cpp.obj: CMakeFiles/myapp.dir/includes_CXX.rsp
+CMakeFiles/myapp.dir/src/bin.cpp.obj: src/bin.cpp
+CMakeFiles/myapp.dir/src/bin.cpp.obj: CMakeFiles/myapp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Windows\Desktop\imagecompression\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myapp.dir/src/bin.cpp.obj"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myapp.dir/src/bin.cpp.obj -MF CMakeFiles\myapp.dir\src\bin.cpp.obj.d -o CMakeFiles\myapp.dir\src\bin.cpp.obj -c C:\Users\Windows\Desktop\imagecompression\build\src\bin.cpp
 
-CMakeFiles/myapp.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myapp.dir/src/main.cpp.i"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp > CMakeFiles\myapp.dir\src\main.cpp.i
+CMakeFiles/myapp.dir/src/bin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myapp.dir/src/bin.cpp.i"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Windows\Desktop\imagecompression\build\src\bin.cpp > CMakeFiles\myapp.dir\src\bin.cpp.i
 
-CMakeFiles/myapp.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myapp.dir/src/main.cpp.s"
-	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Windows\Desktop\imagecompression\build\src\main.cpp -o CMakeFiles\myapp.dir\src\main.cpp.s
+CMakeFiles/myapp.dir/src/bin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myapp.dir/src/bin.cpp.s"
+	C:\MinGW\bin\mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Windows\Desktop\imagecompression\build\src\bin.cpp -o CMakeFiles\myapp.dir\src\bin.cpp.s
 
 # Object files for target myapp
 myapp_OBJECTS = \
-"CMakeFiles/myapp.dir/src/main.cpp.obj"
+"CMakeFiles/myapp.dir/src/bin.cpp.obj"
 
 # External object files for target myapp
 myapp_EXTERNAL_OBJECTS =
 
-myapp.exe: CMakeFiles/myapp.dir/src/main.cpp.obj
+myapp.exe: CMakeFiles/myapp.dir/src/bin.cpp.obj
 myapp.exe: CMakeFiles/myapp.dir/build.make
 myapp.exe: C:/SFML-2.5.1/lib/libsfml-graphics-d.a
 myapp.exe: C:/SFML-2.5.1/lib/libsfml-window-d.a

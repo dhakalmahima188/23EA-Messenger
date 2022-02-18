@@ -11,6 +11,7 @@ int main(){
         case 'c':
             compress();
             cout<<endl;
+           
             break;
         case 'd':
             decompress();
