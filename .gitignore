@@ -9,4 +9,8 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+<<<<<<< HEAD
 build/
+=======
+build/
+>>>>>>> dba7df00ce2e8bb3938d95f0b85bef4870fc8e33

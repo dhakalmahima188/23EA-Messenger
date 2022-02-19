@@ -1,3 +1,0 @@
-C:/Users/Nadika Poudel/OneDrive/Desktop/MessageCompression/build/CMakeFiles/myapp.dir
-C:/Users/Nadika Poudel/OneDrive/Desktop/MessageCompression/build/CMakeFiles/edit_cache.dir
-C:/Users/Nadika Poudel/OneDrive/Desktop/MessageCompression/build/CMakeFiles/rebuild_cache.dir
