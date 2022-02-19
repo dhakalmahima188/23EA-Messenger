@@ -19,9 +19,5 @@ int main(){
         default:
             cout<<"Invalid choice!";
     }
-    //compress();
-    //compress();
-
-    //decompress();
     return 0;
 }
