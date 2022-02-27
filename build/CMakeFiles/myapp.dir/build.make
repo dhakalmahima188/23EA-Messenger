@@ -69,7 +69,6 @@ include CMakeFiles/myapp.dir/progress.make
 include CMakeFiles/myapp.dir/flags.make
 
 CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/flags.make
-CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/includes_CXX.rsp
 CMakeFiles/myapp.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/myapp.dir/src/main.cpp.obj: CMakeFiles/myapp.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Windows\Desktop\imagecompression\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myapp.dir/src/main.cpp.obj"
@@ -92,10 +91,6 @@ myapp_EXTERNAL_OBJECTS =
 
 myapp.exe: CMakeFiles/myapp.dir/src/main.cpp.obj
 myapp.exe: CMakeFiles/myapp.dir/build.make
-myapp.exe: C:/SFML-2.5.1/lib/libsfml-graphics-d.a
-myapp.exe: C:/SFML-2.5.1/lib/libsfml-window-d.a
-myapp.exe: C:/SFML-2.5.1/lib/libsfml-network-d.a
-myapp.exe: C:/SFML-2.5.1/lib/libsfml-system-d.a
 myapp.exe: CMakeFiles/myapp.dir/linklibs.rsp
 myapp.exe: CMakeFiles/myapp.dir/objects1.rsp
 myapp.exe: CMakeFiles/myapp.dir/link.txt

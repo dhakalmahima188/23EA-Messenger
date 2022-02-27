@@ -1315,7 +1315,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/SFML-2.5.1/lib/cmake/SFML"
+			"value" : "SFML_DIR-NOTFOUND"
 		},
 		{
 			"name" : "SFML_DOC_DIR",
