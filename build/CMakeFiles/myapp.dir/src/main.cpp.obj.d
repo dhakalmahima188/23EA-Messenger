@@ -1,59 +1,33 @@
 CMakeFiles/myapp.dir/src/main.cpp.obj: \
  C:\Users\Windows\Desktop\imagecompression\src\main.cpp \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\stdc++.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cassert \
+ C:/SFML-2.5.1/include/SFML/Graphics.hpp \
+ C:/SFML-2.5.1/include/SFML/Window.hpp \
+ C:/SFML-2.5.1/include/SFML/System.hpp \
+ C:/SFML-2.5.1/include/SFML/Config.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Clock.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Export.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Time.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Err.hpp \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
- c:\mingw\include\assert.h c:\mingw\include\_mingw.h \
- c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
- c:\mingw\include\sdkddkver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cctype \
- c:\mingw\include\ctype.h c:\mingw\include\wctype.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
- c:\mingw\include\errno.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cfloat \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\float.h c:\mingw\include\float.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ciso646 \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\climits \
- c:\mingw\include\limits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\clocale \
- c:\mingw\include\locale.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
- c:\mingw\include\math.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\csetjmp \
- c:\mingw\include\setjmp.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\csignal \
- c:\mingw\include\signal.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdarg \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstddef \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio \
- c:\mingw\include\stdio.h c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
- c:\mingw\include\stdlib.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstring \
- c:\mingw\include\string.h c:\mingw\include\strings.h \
- c:\mingw\include\wchar.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
- c:\mingw\include\sys\types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ccomplex \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\complex \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
- c:\mingw\include\wchar.h c:\mingw\include\wctype.h \
- c:\mingw\include\stdio.h c:\mingw\include\stdlib.h \
- c:\mingw\include\direct.h c:\mingw\include\sys/stat.h \
- c:\mingw\include\io.h c:\mingw\include\stdint.h c:\mingw\include\time.h \
+ c:\mingw\include\wchar.h c:\mingw\include\_mingw.h \
+ c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
+ c:\mingw\include\sdkddkver.h c:\mingw\include\wctype.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
+ c:\mingw\include\sys\types.h c:\mingw\include\stdio.h \
+ c:\mingw\include\sys/types.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
+ c:\mingw\include\stdlib.h c:\mingw\include\direct.h \
+ c:\mingw\include\sys/stat.h c:\mingw\include\io.h \
+ c:\mingw\include\stdint.h c:\mingw\include\time.h \
  c:\mingw\include\locale.h c:\mingw\include\process.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\exception \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_lockfree_defines.h \
@@ -66,6 +40,8 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\char_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functexcept.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\cpp_type_traits.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\type_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\numeric_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_pair.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_iterator_base_types.h \
@@ -80,10 +56,15 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\include\stdint.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\localefwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++locale.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\clocale \
+ c:\mingw\include\locale.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cctype \
+ c:\mingw\include\ctype.h c:\mingw\include\wctype.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\atomicity.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\gthr-default.h \
+ c:\mingw\include\errno.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\atomic_word.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
@@ -101,6 +82,11 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
+ c:\mingw\include\stdlib.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio \
+ c:\mingw\include\stdio.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\functional_hash.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hash_bytes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
@@ -118,21 +104,16 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\ctype_inline.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cfenv \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fenv.h \
- c:\mingw\include\fenv.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cinttypes \
- c:\mingw\include\inttypes.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdalign \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdalign.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdbool \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdbool.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctgmath \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cuchar \
+ C:/SFML-2.5.1/include/SFML/System/FileInputStream.hpp \
+ C:/SFML-2.5.1/include/SFML/System/InputStream.hpp \
+ C:/SFML-2.5.1/include/SFML/System/NonCopyable.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Lock.hpp \
+ C:/SFML-2.5.1/include/SFML/System/MemoryInputStream.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Mutex.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Sleep.hpp \
+ C:/SFML-2.5.1/include/SFML/System/String.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Utf.hpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\algorithm \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\utility \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_relops.h \
@@ -143,118 +124,89 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uniform_int_dist.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\limits \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bitset \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_deque.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\deque.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\basic_file.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++io.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\fstream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\functional \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\typeinfo \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\tuple \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\time_members.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\messages_members.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_conv.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\tuple \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
+ C:/SFML-2.5.1/include/SFML/System/Utf.inl \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iterator \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stream_iterator.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\list \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_list.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocated_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\list.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\memory \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_raw_storage_iter.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\concurrence.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_base.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\shared_ptr_atomic.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_base.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\backward\auto_ptr.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\numeric \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_numeric.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
+ C:/SFML-2.5.1/include/SFML/System/String.inl \
+ C:/SFML-2.5.1/include/SFML/System/Thread.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Thread.inl \
+ C:/SFML-2.5.1/include/SFML/System/ThreadLocal.hpp \
+ C:/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.hpp \
+ C:/SFML-2.5.1/include/SFML/System/ThreadLocalPtr.inl \
+ C:/SFML-2.5.1/include/SFML/System/Vector2.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Vector2.inl \
+ C:/SFML-2.5.1/include/SFML/System/Vector3.hpp \
+ C:/SFML-2.5.1/include/SFML/System/Vector3.inl \
+ C:/SFML-2.5.1/include/SFML/Window/Clipboard.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Export.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Context.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/GlResource.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/ContextSettings.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Cursor.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Event.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Joystick.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Keyboard.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Mouse.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Sensor.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/Touch.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/VideoMode.hpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_queue.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\set \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_set.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multiset.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stack \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_stack.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\valarray \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_array.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_before.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\slice_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\valarray_after.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\gslice.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\gslice_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\mask_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\indirect_array.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\atomic \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\chrono \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ratio \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\parse_numbers.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\codecvt \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\condition_variable \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\std_mutex.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\forward_list \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\forward_list.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\future \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mutex \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\thread \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\atomic_futex.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\random \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\random.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\opt_random.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\random.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\regex \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_constants.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_error.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_automaton.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_automaton.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_scanner.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_scanner.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_compiler.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_compiler.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_executor.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\regex_executor.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\scoped_allocator \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\typeindex \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_map \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\hashtable_policy.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_map.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\unordered_set \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unordered_set.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\shared_mutex \
- C:\Users\Windows\Desktop\imagecompression\src\compress.cpp \
- C:\Users\Windows\Desktop\imagecompression\src\convert_to_hex.cpp \
- C:\Users\Windows\Desktop\imagecompression\src\convert_to_binary.cpp \
- C:\Users\Windows\Desktop\imagecompression\src\decompress.cpp
+ C:/SFML-2.5.1/include/SFML/Window/Window.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/WindowHandle.hpp \
+ C:/SFML-2.5.1/include/SFML/Window/WindowStyle.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/BlendMode.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Export.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/CircleShape.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Shape.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Drawable.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/RenderStates.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Transform.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Rect.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Rect.inl \
+ C:/SFML-2.5.1/include/SFML/Graphics/Transformable.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/VertexArray.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Vertex.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Color.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/PrimitiveType.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/ConvexShape.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Font.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Glyph.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Texture.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Image.hpp \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_map.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
+ C:/SFML-2.5.1/include/SFML/Graphics/RectangleShape.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/RenderTarget.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/View.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/RenderTexture.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/RenderWindow.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Shader.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Glsl.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Glsl.inl \
+ C:/SFML-2.5.1/include/SFML/Graphics/Sprite.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/Text.hpp \
+ C:/SFML-2.5.1/include/SFML/Graphics/VertexBuffer.hpp

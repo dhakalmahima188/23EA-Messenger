@@ -1,27 +1,36 @@
-#include <bits/stdc++.h>
-#include "compress.cpp"
-#include "decompress.cpp"
-using namespace std;
+// #include <SFML/Graphics.hpp>
 
-int main(){
-    char choice;
-    cout<<"Compress or Decompress? (c/d): ";
-    cin>>choice;
-    cout<<endl;
-    switch(choice){
-        case 'c':
-            compress();
-            cout<<endl;
-            break;
-        case 'd':
-            decompress();
-            break;
-        default:
-            cout<<"Invalid choice!";
+// #include "Visualizer.h"
+
+// int main()
+// {
+//     Visualizer v ;
+//     v.run();
+//     return 0 ;
+
+// }
+
+#include <SFML/Graphics.hpp>
+
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    sf::CircleShape shape(100.f);
+    shape.setFillColor(sf::Color::Green);
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        window.clear();
+        window.draw(shape);
+        window.display();
     }
-    //compress();
-    //compress();
 
-    //decompress();
     return 0;
 }

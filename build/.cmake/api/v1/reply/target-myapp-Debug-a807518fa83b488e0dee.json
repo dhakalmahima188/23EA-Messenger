@@ -65,12 +65,6 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 89,
-				"parent" : 6
-			},
-			{
-				"command" : 2,
-				"file" : 1,
 				"line" : 70,
 				"parent" : 6
 			}
@@ -119,12 +113,17 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 7,
+				"backtrace" : 2,
 				"fragment" : "C:\\SFML-2.5.1\\lib\\libsfml-window-d.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 8,
+				"backtrace" : 2,
+				"fragment" : "C:\\SFML-2.5.1\\lib\\libsfml-network-d.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
 				"fragment" : "C:\\SFML-2.5.1\\lib\\libsfml-system-d.a",
 				"role" : "libraries"
 			},

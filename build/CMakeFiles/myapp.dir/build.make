@@ -94,6 +94,7 @@ myapp.exe: CMakeFiles/myapp.dir/src/main.cpp.obj
 myapp.exe: CMakeFiles/myapp.dir/build.make
 myapp.exe: C:/SFML-2.5.1/lib/libsfml-graphics-d.a
 myapp.exe: C:/SFML-2.5.1/lib/libsfml-window-d.a
+myapp.exe: C:/SFML-2.5.1/lib/libsfml-network-d.a
 myapp.exe: C:/SFML-2.5.1/lib/libsfml-system-d.a
 myapp.exe: CMakeFiles/myapp.dir/linklibs.rsp
 myapp.exe: CMakeFiles/myapp.dir/objects1.rsp

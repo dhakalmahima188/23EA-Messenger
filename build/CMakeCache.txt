@@ -249,7 +249,7 @@ ImageCompression_SOURCE_DIR:STATIC=C:/Users/Windows/Desktop/imagecompression
 SFMLCOMPONENTSsystem window graphics network audio REQUIRED_DIR:PATH=SFMLCOMPONENTSsystem window graphics network audio REQUIRED_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for SFML.
-SFML_DIR:PATH=C:/SFML-2.5.1/lib/cmake/SFML
+SFML_DIR:PATH=SFML_DIR-NOTFOUND
 
 //Path to a file.
 SFML_DOC_DIR:PATH=SFML_DOC_DIR-NOTFOUND
