@@ -107,7 +107,7 @@ bool login(char username[], char password[], usertype a = user)
     std::ifstream userfile;
     try
     {
-        userfile.open("user.bin", std::ios::binary | std::ios::in);
+        userfile.open("../data/user.bin", std::ios::binary | std::ios::in);
         if (!userfile.is_open())
             throw 1;
         User a;

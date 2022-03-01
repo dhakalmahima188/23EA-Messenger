@@ -30,7 +30,7 @@ menu:
         std::cout << char(205);
     }
     std::cout << char(187) << std::endl;
-    std::cout << "\t\t" << char(186) << "       AAWAJ        " << char(186) << std::endl;
+    std::cout << "\t\t" << char(186) << "  23-EA MESSENGER   " << char(186) << std::endl;
     std::cout << "\t\t" << char(200);
     for (int i = 0; i < 20; i++)
     {
@@ -133,15 +133,8 @@ home:
             std::cout << char(196);
         }
         std::cout << char(191) << std::endl;
-        // std::cout <<"\t\t" << char(179) << "   1.Privacy        " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        // std::cout << "\t\t" <<char(179) << "   2.POst           " << char(179) << std::endl;
-        // std::cout << "\t\t"<< char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        std::cout << "\t\t" << char(179) << "   3.Message        " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        // std::cout << "\t\t" <<char(179) << "   4.User Profile   " << char(179) << std::endl;
+     
+        std::cout << "\t\t" << char(179) << "   1.Message        " << char(179) << std::endl;
 
         std::cout << "\t\t" << char(195);
         for (int i = 0; i < 20; i++)
@@ -149,7 +142,7 @@ home:
             std::cout << char(196);
         }
         std::cout << char(180) << std::endl;
-        std::cout << "\t\t" << char(179) << "   5.Log Out        " << char(179) << std::endl;
+        std::cout << "\t\t" << char(179) << "   2.Log Out        " << char(179) << std::endl;
 
         std::cout << "\t\t" << char(192);
         for (int i = 0; i < 20; i++)
@@ -164,7 +157,7 @@ home:
     switch (i)
     {
       
-    case 3:
+    case 1:
     message:
     {
         std::system("CLS");
@@ -206,16 +199,7 @@ home:
                 std::cout << "Enter the username of receiver" << std::endl;
                 char receiver[20];
                 std::cin >> receiver;
-                bool answer;
-                answer = check_user(receiver);
-                if (answer)
-                {
-                    std::cout << "You have been blocked by this user. Press c to continue" << std::endl;
-                    char n;
-                    std::cin >> n;
-                }
-                else
-                {
+                
                     char msgbody[250];
                   
                     std::cout << "Enter the msg body" << std::endl;
@@ -227,7 +211,7 @@ home:
                 //   strcpy(msgbody,ans);
                     message msg(receiver, msgbody);
                     msg.sendMessage();
-                }
+                
                 goto message;
                 break;
             }
@@ -261,65 +245,7 @@ home:
             }
         }
         break;
-        //         }
-        //         case 4:
-        //         profile:
-        //         {
-        //             std::system("CLS");
-        //             int answer;
-        //             cout<<"\n\n\n\n";
-        //             cout.fill(' ');
-        //             cout.width(30);
-        //             cout<<"Welcome "<<currentLoggedInUsername<<"!!!\n";
-        //             cout.setf(ios::left);
-        //             cout.width(60);
-        //             cout.fill('_');
-        //             cout<<"_";
-        //              display_photo();
-        //           std::cout<<std::endl<<std::endl<<std::endl;
-
-        //             std::cout << "\t\t" <<char(218);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(191) << std::endl;
-        // std::cout <<"\t\t" << char(179) << "   1.Followers      " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        // std::cout << "\t\t" <<char(179) << "   2.Followings     " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        // std::cout << "\t\t" <<char(179) << "   3.Blocked Users  " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(195);  for(int i=0; i<20; i++){std::cout << char(196);}  std::cout << char(180)  << std::endl;
-        // std::cout << "\t\t" <<char(179) << "   4.Exit           " << char(179) << std::endl;
-
-        // std::cout << "\t\t" <<char(192);  for(int i=0; i<20; i++){std::cout << char(196);}   std::cout << char(217) << std::endl;
-        //             cin>>answer;
-        //             char l;
-        //             switch(answer)
-        //             {
-        //                 case 1:
-        //                 std::system("CLS");
-        //                 //cout<<"This is called";
-        //                 view_followers();
-        //                 std::cin>>l;
-        //                 goto profile;
-        //                 break;
-        //                 case 2:
-        //                 std::system("CLS");
-        //                 view_following();
-        //                 std::cin>>l;
-        //                 goto profile;
-        //                 break;
-        //                 case 3:
-        //                 std::system("CLS");
-        //                 blocked_people();
-        //                 std::cin>>l;
-        //                 goto profile;
-        //                 default:
-        //                 std::system("CLS");
-        //                 goto home;
-        //                 break;
-        //             }
-        //             break;
-    case 5:
+    case 2:
         goto menu;
     }
     }
