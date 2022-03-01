@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    "cmake.sourceDirectory": "${workspaceFolder}/."
+=======
+>>>>>>> 8cfc8e1a6d934cab00b99b8f8b689982c327f8f6
     "files.associations": {
         "iosfwd": "cpp",
         "iostream": "cpp",
@@ -69,4 +75,8 @@
         "typeinfo": "cpp",
         "valarray": "cpp"
     }
+<<<<<<< HEAD
+=======
+>>>>>>> mahima
+>>>>>>> 8cfc8e1a6d934cab00b99b8f8b689982c327f8f6
 }
