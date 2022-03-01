@@ -1,5 +1,5 @@
 CMakeFiles/myapp.dir/src/main.cpp.obj: \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\main.cpp \
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\main.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -108,7 +108,7 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstring \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\message.cpp \
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\message.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
  c:\mingw\include\windows.h c:\mingw\include\windef.h \
  c:\mingw\include\winnt.h c:\mingw\include\winerror.h \
@@ -161,8 +161,8 @@ CMakeFiles/myapp.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_set.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multiset.h \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\login.cpp \
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\login.cpp \
  c:\mingw\include\process.h c:\mingw\include\dir.h \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\compress.cpp \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\decode.cpp \
- C:\Users\Windows\Desktop\DsaMessage\ COmpression\src\linkedlist.cpp
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\compress.cpp \
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\decode.cpp \
+ C:\Users\Windows\Desktop\DsaMessage\ COmpression\ -\ Copy\src\linkedlist.cpp

@@ -4,12 +4,12 @@
 #include <cstdlib>
 #include <cstring>
 #include <string>
-
+#include <ctime>
 #include "message.cpp"
 #include "login.cpp"
 using namespace std;
 
-// This constant can be avoided by explicitly
+
 // calculating height of Huffman Tree
 #define MAX_TREE_HT 100
 
@@ -255,16 +255,23 @@ class huffmanTable
 {
     public:
     huffmanTableNode *huffTable;
+    time_t msgtime;
     int size;
     int i=0;
-	string rawstring="",hexstring="";
+	string rawstring="";
     huffmanTable(int size)
     {
         this->size = size;
         huffTable = new huffmanTableNode[size];
+	  msgtime= getCurrentTime();
     }
 	huffmanTable(){};
-
+	const time_t getCurrentTime(){
+        time_t t; // t passed as argument in function time()
+        struct tm * tt; // decalring variable for localtime()
+        time (&t); //passing argument to time()
+        return t;
+    }  
     void createHuffmanTable(struct MinHeapNode* root, string str)
     {
         if (root->left)
@@ -306,7 +313,7 @@ class huffmanTable
         for(int i=0;i<ans.length();i++){
             rawstring+= Search(ans[i]);
         }
-	
+		
 
         
     }
@@ -323,6 +330,7 @@ fstream& operator<<(fstream& out, huffmanTable& hT){
 		out<<hT.huffTable[i].data<<" "<<hT.huffTable[i].code<<endl;
 	}
 	out<<hT.rawstring<<endl;
+	out<<hT.msgtime<<endl;
 	return out;
 }
 //read huffman table from file
@@ -334,6 +342,7 @@ fstream& operator>>(fstream& in, huffmanTable& hT){
 		in>>hT.huffTable[i].data>>hT.huffTable[i].code;
 	}
 	in>>hT.rawstring;
+	in>>hT.msgtime;
 	return in;
 }
 
@@ -359,8 +368,15 @@ void HuffmanCodes(char data[], int freq[], int size, string realData, char* rece
         string sdr(currentLoggedInUsername), rec(receiver);   
         fstream receiverFile;
         receiverFile.open((path+rec+"/"+sdr+extension).c_str(), ios::app);
+
 		receiverFile<<hTable;
+
+		 fstream databasefile;    
+    databasefile.open((path+rec+"/database.bin").c_str(),ios::app);
+	databasefile<<currentLoggedInUsername;
         receiverFile.close();
+		  databasefile.close();
+		
 		
 }
 

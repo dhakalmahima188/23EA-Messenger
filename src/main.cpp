@@ -133,9 +133,10 @@ home:
             std::cout << char(196);
         }
         std::cout << char(191) << std::endl;
-     
+        
         std::cout << "\t\t" << char(179) << "   1.Message        " << char(179) << std::endl;
 
+      
         std::cout << "\t\t" << char(195);
         for (int i = 0; i < 20; i++)
         {
@@ -199,7 +200,16 @@ home:
                 std::cout << "Enter the username of receiver" << std::endl;
                 char receiver[20];
                 std::cin >> receiver;
-                
+                bool answer;
+                answer = check_user(receiver);
+                if (answer)
+                {
+                    std::cout << "You have been blocked by this user. Press c to continue" << std::endl;
+                    char n;
+                    std::cin >> n;
+                }
+                else
+                {
                     char msgbody[250];
                   
                     std::cout << "Enter the msg body" << std::endl;
@@ -211,7 +221,7 @@ home:
                 //   strcpy(msgbody,ans);
                     message msg(receiver, msgbody);
                     msg.sendMessage();
-                
+                }
                 goto message;
                 break;
             }
@@ -245,7 +255,8 @@ home:
             }
         }
         break;
-    case 5:
+      
+    case 2:
         goto menu;
     }
     }
