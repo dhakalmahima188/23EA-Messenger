@@ -245,7 +245,7 @@ home:
             }
         }
         break;
-    case 5:
+    case 2:
         goto menu;
     }
     }

@@ -170,15 +170,7 @@ void buildMinHeap(struct MinHeap* minHeap)
 }
 string answer;
 // A utility function to print an array of size n
-/*void printArr(int arr[], int n)
-{
-	int i;
-	for (i = 0; i < n; ++i)
-		cout<< arr[i];
 
-	cout<<"\n";
-}
-*/
 // Utility function to check if this node is leaf
 int isLeaf(struct MinHeapNode* root)
 
