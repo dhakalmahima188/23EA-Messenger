@@ -4,8 +4,7 @@
 #include <cstdlib>
 #include <cstring>
 #include <string>
-#include "convert_to_hex.cpp"
-#include "convert_to_binary.cpp"
+
 #include "message.cpp"
 #include "login.cpp"
 using namespace std;
@@ -307,7 +306,7 @@ class huffmanTable
         for(int i=0;i<ans.length();i++){
             rawstring+= Search(ans[i]);
         }
-		hexstring=convertBinToHex(rawstring);
+	
 
         
     }
