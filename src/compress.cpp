@@ -247,6 +247,7 @@ class huffmanTable
 {
     public:
     huffmanTableNode *huffTable;
+	time_t msgtime;
     int size;
     int i=0;
 	string rawstring="",hexstring="";
@@ -254,9 +255,15 @@ class huffmanTable
     {
         this->size = size;
         huffTable = new huffmanTableNode[size];
+		msgtime= getCurrentTime();
     }
 	huffmanTable(){};
-
+  time_t getCurrentTime(){
+        time_t t; // t passed as argument in function time()
+        struct tm * tt; // decalring variable for localtime()
+        time (&t); //passing argument to time()
+        return t;
+    }  
     void createHuffmanTable(struct MinHeapNode* root, string str)
     {
         if (root->left)
@@ -315,6 +322,7 @@ fstream& operator<<(fstream& out, huffmanTable& hT){
 		out<<hT.huffTable[i].data<<" "<<hT.huffTable[i].code<<endl;
 	}
 	out<<hT.rawstring<<endl;
+	out<<hT.msgtime<<endl;
 	return out;
 }
 //read huffman table from file
@@ -326,6 +334,7 @@ fstream& operator>>(fstream& in, huffmanTable& hT){
 		in>>hT.huffTable[i].data>>hT.huffTable[i].code;
 	}
 	in>>hT.rawstring;
+	in>>hT.msgtime;
 	return in;
 }
 
@@ -342,8 +351,10 @@ void HuffmanCodes(char data[], int freq[], int size, string realData, char* rece
 	// Print Huffman codes using
 	// the Huffman tree built above
 	huffmanTable hTable(size) ;
+	
     hTable.createHuffmanTable(root, "");
 	hTable.generateHuffmanCode(realData);
+	// hTable.getCurrentTime();
 	fstream senderFile;
 
     	string path="../data/decompressThis/";

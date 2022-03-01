@@ -51,10 +51,12 @@ public:
     friend bool Register();
     friend bool login(char [], char [], usertype);
     friend void add_friend();
-  
-  
-
-  
+    friend void block_friend();
+    friend void display_profile();
+    friend void view_followers();
+    friend void view_following();
+    friend void view_posts();
+    friend void blocked_people();
 };
 
 
@@ -214,7 +216,41 @@ class name_foll   //name lai object ko rup ma follow ma rakhna ko lagi...we coul
         {   
             std::cout<<nnamm<<std::endl;
         }
-  
+        friend void view_followers();
+        friend void view_following();
+        friend void blocked_people();
+        friend bool check_user(char []);
 };
 
 
+
+bool check_user(char usernamee[])
+{
+    std::string path= "../data/follow/";
+    std::fstream to_check_for_block;
+    std::string recc(currentLoggedInUsername);
+    bool userfoundd = false;
+    try 
+        {
+            to_check_for_block.open((path+recc+"/blocked_by.bin").c_str(), std::ios::in);
+            if (!to_check_for_block.is_open()){
+                throw 1;
+            }
+            name_foll a;
+            
+            while (to_check_for_block.read((char *)&a, sizeof(name_foll)))
+            {
+                if (!std::strcmp(usernamee,a.nnamm))
+                {
+                    userfoundd = true;
+                    break;
+                }
+            }
+            }
+            catch (int i)
+            {
+                std::cout << " " << std::endl;
+                
+            }
+        return userfoundd;
+}
