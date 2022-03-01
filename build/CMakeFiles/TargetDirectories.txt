@@ -1,0 +1,3 @@
+C:/Users/Windows/Desktop/DsaMessage COmpression - Copy/build/CMakeFiles/myapp.dir
+C:/Users/Windows/Desktop/DsaMessage COmpression - Copy/build/CMakeFiles/edit_cache.dir
+C:/Users/Windows/Desktop/DsaMessage COmpression - Copy/build/CMakeFiles/rebuild_cache.dir
