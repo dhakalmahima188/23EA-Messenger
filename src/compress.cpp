@@ -6,6 +6,8 @@
 #include <string>
 #include "convert_to_hex.cpp"
 #include "convert_to_binary.cpp"
+#include "message.cpp"
+#include "login.cpp"
 using namespace std;
 
 // This constant can be avoided by explicitly
@@ -339,7 +341,7 @@ fstream& operator>>(fstream& in, huffmanTable& hT){
 // The main function that builds a
 // Huffman Tree and print codes by traversing
 // the built Huffman Tree
-void HuffmanCodes(char data[], int freq[], int size, string realData)
+void HuffmanCodes(char data[], int freq[], int size, string realData, char* receiver)
 
 {
 	// Construct Huffman Tree
@@ -352,9 +354,14 @@ void HuffmanCodes(char data[], int freq[], int size, string realData)
     hTable.createHuffmanTable(root, "");
 	hTable.generateHuffmanCode(realData);
 	fstream senderFile;
-    senderFile.open("../data/decompressThis/compressed.bin", ios::app);
-	senderFile<<hTable;
-    senderFile.close();
+
+    	string path="../data/decompressThis/";
+        string extension= ".bin";
+        string sdr(currentLoggedInUsername), rec(receiver);   
+        fstream receiverFile;
+        receiverFile.open((path+rec+"/"+sdr+extension).c_str(), ios::app);
+		receiverFile<<hTable;
+        receiverFile.close();
 		
 }
 
@@ -368,14 +375,14 @@ int search(char arr[], int n, int x)
 }
 
 // Driver code
-void compress()
+void compress( string ans, char* receiver)
 {
-    string ans;
-	cout<<endl;
-	cin.ignore();
-	cout<<"Enter the string to be encoded: ";
-	cout<<endl;
-    getline(cin,ans);
+    // string ans;
+	// cout<<endl;
+	// cin.ignore();
+	// cout<<"Enter the string to be encoded: ";
+	// cout<<endl;
+    // getline(cin,ans);
     int n = ans.size();
     char uniqueArr[n];
 	int freq[n];
@@ -400,7 +407,7 @@ void compress()
 			freq[result]++;
 		}
     }
-	HuffmanCodes(uniqueArr, freq, j, ans);
+	HuffmanCodes(uniqueArr, freq, j, ans,receiver);
 }
 
 

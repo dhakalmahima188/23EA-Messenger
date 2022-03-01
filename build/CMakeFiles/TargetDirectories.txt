@@ -1,3 +1,3 @@
-C:/Users/Windows/Desktop/imagecompression/build/CMakeFiles/myapp.dir
-C:/Users/Windows/Desktop/imagecompression/build/CMakeFiles/edit_cache.dir
-C:/Users/Windows/Desktop/imagecompression/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Windows/Desktop/DsaMessage COmpression/build/CMakeFiles/myapp.dir
+C:/Users/Windows/Desktop/DsaMessage COmpression/build/CMakeFiles/edit_cache.dir
+C:/Users/Windows/Desktop/DsaMessage COmpression/build/CMakeFiles/rebuild_cache.dir

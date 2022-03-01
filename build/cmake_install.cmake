@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Windows/Desktop/imagecompression
+# Install script for directory: C:/Users/Windows/Desktop/DsaMessage COmpression
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ImageCompression")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MessageCompression")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Windows/Desktop/imagecompression/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Windows/Desktop/DsaMessage COmpression/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
