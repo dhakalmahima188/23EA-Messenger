@@ -2,17 +2,17 @@
 ### Data Structures USed:
 
 - SINGLY LINKED LISTS
-- ARRAYS
-- PRIORITY QUEUES
+- ARRAY OF STRUCTURES.
+- PRIORITY QUEUES (MINHEAP)
 - HUFFMAN TREE
 
 ### OPERATIONS:
 
-Sorting
-Searching
-Deletion
-Insertion
-Traversing
+- Sorting
+- Searching
+- Deletion
+- Insertion
+- Traversing
 
 
 ## BUILD INSTRUCTIONS:
